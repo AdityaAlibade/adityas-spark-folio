@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, Heart, Instagram } from "lucide-react";
 
 const Footer = () => {
   const navLinks = [
@@ -11,9 +11,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Mail, href: "mailto:alibadeaditya@gmail.com", label: "Email" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/aditya-alibade-6918a8286", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/AdityaAlibade", label: "GitHub" },
+    { icon: Instagram, href: "https://www.instagram.com/aditya_alibade", label: "Instagram" },
   ];
 
   return (
