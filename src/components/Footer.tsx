@@ -69,9 +69,8 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-primary/10 pt-8 text-center">
-          <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-            © 2025 Alibade Aditya | Built with <Heart className="w-4 h-4 text-primary" /> using
-            React, Tailwind CSS & Framer Motion
+          <p className="text-sm text-muted-foreground">
+            © 2025 Alibade Aditya
           </p>
         </div>
       </div>
