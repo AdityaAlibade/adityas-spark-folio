@@ -24,7 +24,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold gradient-text mb-4">Alibade Aditya</h3>
             <p className="text-muted-foreground text-sm">
-              Computer Engineering Student | Game & Android Developer | AI Enthusiast
+              Computer Engineering Student | Game Developer | Android Developer | AI Enthusiast | Web & App Innovator
             </p>
           </div>
 
