@@ -82,7 +82,7 @@ const Home = () => {
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="glass">
-              <a href="#" download>
+              <a href="/Aditya_Alibade_Resume.pdf" download="Aditya_Alibade_Resume.pdf">
                 <Download className="mr-2 w-4 h-4" />
                 Download Resume
               </a>
