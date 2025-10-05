@@ -6,7 +6,16 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   const [typedText, setTypedText] = useState("");
-  const phrases = ["Software Developer", "Game Developer", "Android Developer", "AI Enthusiast", "Creative Technologist"];
+  const phrases = [
+    "Game & Android Developer",
+    "AI Enthusiast",
+    "Software Developer",
+    "Web & App Innovator",
+    "Tech Explorer",
+    "Innovator & Learner",
+    "Team Collaborator",
+    "Passionate Problem Solver"
+  ];
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
