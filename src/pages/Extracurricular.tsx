@@ -56,6 +56,19 @@ const Extracurricular = () => {
         "Won multiple medals in track and field events",
       ],
     },
+    {
+      title: "District Level Carrom Player",
+      organization: "Pune District Sports Association",
+      period: "2022 - 2024",
+      icon: Trophy,
+      color: "from-yellow-500 to-amber-500",
+      achievements: [
+        "Represented Pune district in state-level carrom competitions",
+        "Competed against top players from across Maharashtra",
+        "Demonstrated strategic thinking and precision in competitive gameplay",
+        "Achieved recognition at district level tournaments",
+      ],
+    },
   ];
 
   return (
