@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone, Send, Github, Linkedin } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Github, Linkedin, Instagram } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -40,14 +40,20 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "#",
+      href: "https://github.com/AdityaAlibade",
       color: "hover:text-purple-500",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/aditya-alibade-6918a8286",
       color: "hover:text-blue-500",
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      href: "https://www.instagram.com/aditya_alibade",
+      color: "hover:text-pink-500",
     },
   ];
 
